@@ -1,0 +1,125 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.center{text-align: center;}
+ul,li,a{text-decoration: none; list-style: none; color: #F90150;}
+
+body{font-family: 'NEXON Lv1 Gothic OTF';}
+
+.quick_menu{position: fixed; z-index: 999; right: 1%; bottom: 35%;}
+.quick_menu ul li{
+    width: 60px; height: 60px; border-radius: 50%; font-size: 10px;
+    background: #F90150; text-align: center; padding-top: 24px;
+    margin-bottom: 10px; transition: all 0.5s;
+}
+.quick_menu ul li:hover{background: #fff;}
+.quick_menu ul li:hover a{
+    color: #F90150;
+}
+.quick_menu ul li a{
+    display: block; width: 100%; height: 100%;
+    color: #fff;
+}
+header{width: 100%;}
+header video{width: 100%; object-fit: cover;}
+
+.intro .null{height: 30px;}
+.intro h3{
+    text-align: center; color: #444; font-size: 25px; letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.intro h4{text-align: center; color: #666; letter-spacing: 20px; margin-bottom: 30px;}
+.intro .intro_txt{
+    background: #eee; width: 100%; height: 600px; display: flex;
+    align-items: center; justify-content: center;
+}
+
+.intro .intro_txt .intro_inner{
+    text-align: center; width: 100%; line-height: 2;
+}
+.intro .intro_txt .intro_inner h3{
+    font-size: 20px; letter-spacing: 10px; margin-bottom: 20px;
+    text-align: center; margin-top: 20px;
+}
+.intro .intro_txt .intro_inner span{font-family: 'yg-jalnan';}
+.intro .intro_txt .intro_inner p{font-family: 'EliceDigitalBaeum_Regular'; margin-bottom: 30px;}
+.intro .intro_txt .intro_inner em{
+    font-style: normal; font-size: 13px; margin-bottom: 10px;
+}
+.intro .intro_txt .intro_inner .color{
+    display: flex; justify-content: center;
+    margin-bottom: 30px;
+}
+.intro .intro_txt .intro_inner .color p{
+    font-family: 'NEXON Lv1 Gothic OTF'; color: #fff; margin-top: 35px;
+    text-align: center;
+}
+.intro .intro_txt .intro_inner .color .color1{
+    background: #F90150; width: 100px; height: 100px; border-radius: 50%;
+    margin-right: 10px;
+}
+.intro .intro_txt .intro_inner .color .color2{
+    background: #F4C221; width: 100px; height: 100px; border-radius: 50%;
+    margin-right: 10px;
+}
+.intro .intro_txt .intro_inner .color .color3{
+    background: #6200B3; width: 100px; height: 100px; border-radius: 50%;
+}
+.intro .intro_logo{width: 100%; height: 300px; background: #eee; margin-top: 20px;}
+.intro .intro_logo h3{
+    font-size: 20px; letter-spacing: 10px;
+    text-align: center; padding-top: 20px;
+}
+.intro .intro_logo img{width: 100px; display: block; margin: auto;}
+.intro .intro_logo em{
+    display: block; text-align: center; font-style: normal;
+    font-size: 13px; line-height: 2.5; padding-top: 20px;
+}
+
+.contents{width: 100%; margin: 30px 0;}
+.row{margin: 100px 0;}
+.row video{
+    width: 100%;
+}
+.row h5{
+    font-size: 25px; letter-spacing: 10px; border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; color: #666;
+}
+.row p{margin-top: 30px;}
+
+.detail{width: 100%;}
+.detail h4{
+    text-align: center; color: #666; letter-spacing: 20px; height: 50px;
+    margin-top: 30px;
+}
+.detail video{
+    width: 60%; object-fit: cover; margin: auto;
+}
+
+footer{
+    width: 100%; background: #F90150; height: 300px; margin-top: 100px;
+    color: #fff;
+}
+footer .f_con{width: 100%; position: relative; text-align: center;}
+footer .f_con>img{width: 100px;}
+footer .f_con h2{letter-spacing: 5px;}
+footer .f_con i{font-size: 20px; line-height: 1.8;}
+footer .f_con span{font-size: 18px; margin-left: 10px; line-height: 1.8;}
+footer .f_con .copy{margin-top: 10px;}
+footer .f_con em{font-style: normal; display: block; line-height: 1.8; font-size: 11px;}
